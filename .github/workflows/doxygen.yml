@@ -20,6 +20,7 @@ jobs:
 
     - name: Generate Doxygen Documentation
       run: |
+        cd docs/
         doxygen Doxyfile
 
     - name: Deploy to GitHub Pages

@@ -1,0 +1,20 @@
+/*! \mainpage ArticleHub
+
+\section intro_sec Введение
+
+Документация сайта ArticleHub
+Данный проект представляет собой полноценный сайт для чтения и публикации статей
+
+\section structure_sec Структура
+
+- index.html — главная страница сайта.
+- style.css — стили оформления.
+- fonts - шрифты
+- img - изображения на сайте
+
+\section author_sec Автор
+
+- Автор: Denrezit
+- Дата: 2025-05-23
+
+*/

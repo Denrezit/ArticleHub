@@ -1,3 +1,10 @@
+/**
+ * @file styles.css
+ * @brief Main stylesheet for the website.
+ * @author Denrezit
+ * @date 23-05-2025
+ */
+
 * {
   padding: 0;
   margin: auto;
@@ -87,14 +94,28 @@
   }
 }
 
+/**
+ * @defgroup BodyStyles Body Styling
+ * @brief Styles applied to the body element.
+ */
+
 /*BODY */
 body {
   background-image: url('../img/back1.jpg');
-  background-size:cover; /* Картинка заполнит весь фон */
-  background-repeat: no-repeat; /* Без повторения */
-  min-height: 100vh; /* Высота на весь экран */
+  background-size: cover;
+  /* Картинка заполнит весь фон */
+  background-repeat: no-repeat;
+  /* Без повторения */
+  min-height: 100vh;
+  /* Высота на весь экран */
   margin: 0;
 }
+
+
+/**
+ * @defgroup HeaderStyles Header Styling
+ * @brief Styles applied to the header element.
+ */
 
 /*HEADER*/
 .header {
@@ -161,8 +182,9 @@ body {
   width: 1350px;
   padding: 160px 20px;
 }
+
 .main-cover {
-  padding:20px;
+  padding: 20px;
   background-color: #faf6fbbb;
   border-radius: 12px;
 
@@ -175,18 +197,21 @@ body {
   /* Отступы */
   margin-bottom: 25px;
 }
+
 .hashtags {
   display: flex;
-  gap:20px;
+  gap: 20px;
   align-items: center;
 }
+
 .hashtags li {
   list-style-type: none;
   /* Размер заголовка */
   /* Отступы */
 
 }
-.hashtags li span  {
+
+.hashtags li span {
   font-family: 'Nunito-Black', sans-serif;
   font-size: 16px;
   /* Размер заголовка */
@@ -216,12 +241,14 @@ body {
   /* Отступы */
   margin-bottom: 25px;
 }
+
 .breadcrumbs {
   display: flex;
   list-style-type: none;
   margin: 0;
-  gap:10px;
+  gap: 10px;
 }
+
 .breadcrumbs li {
   font-family: 'Nunito-Black', sans-serif;
   font-size: 16px;
@@ -231,6 +258,7 @@ body {
   color: #000;
   transition: color 0.3s ease;
 }
+
 .breadcrumbs li a {
   text-decoration: underline;
   color: #000;
@@ -324,6 +352,7 @@ body {
 .genre-section {
   margin-bottom: 100px;
 }
+
 .genre-div {
   display: flex;
   flex-direction: column;
@@ -335,6 +364,7 @@ body {
 .genre-span-div {
   display: flex;
 }
+
 .genre-div span {
   margin: 30px 0;
   text-align: center;
@@ -347,6 +377,7 @@ body {
   padding: 15px 20px;
   box-shadow: 0px 0px 0px 0px rgb(14, 7, 7), 0px 17px 38px 0px rgba(15, 8, 8, 0.258), 0px 68px 68px 0px rgba(255, 255, 255, 0.035), 0px 100px 80px 0px rgba(0, 0, 0, 0.245);
 }
+
 .genre-div h1 {
   font-family: 'Nunito-Black', sans-serif;
   font-weight: 700;
@@ -366,6 +397,7 @@ body {
   /* Отступы */
   color: #000;
 }
+
 .genre-list {
   display: flex;
   flex-direction: column;
@@ -375,12 +407,14 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .genre-list-item {
   display: flex;
   flex-direction: row;
   gap: 150px;
   margin-bottom: 50px;
 }
+
 .genre-text-div {
   width: 500px;
   margin-left: 50px;
@@ -390,7 +424,8 @@ body {
   padding: 20px;
   box-shadow: 0px 0px 0px 0px rgb(14, 7, 7), 0px 17px 38px 0px rgba(15, 8, 8, 0.258), 0px 68px 68px 0px rgba(255, 255, 255, 0.035), 0px 60px 80px 0px rgba(0, 0, 0, 0.245);
 }
-.genre-text-div span{
+
+.genre-text-div span {
   font-family: 'Nunito-Bold', sans-serif;
   font-weight: 400;
   font-size: 19px;
@@ -399,6 +434,7 @@ body {
   line-height: 1.5;
   /* Межстрочный интервал */
 }
+
 .genre-text-div h2 {
   font-family: 'Nunito-Black', sans-serif;
   font-weight: 700;
@@ -409,42 +445,42 @@ body {
 }
 
 .img-cs {
-  width:300px;
+  width: 300px;
   border-radius: 12px;
   border: 4px solid #000000;
   box-shadow: 0px 0px 0px 0px rgb(14, 7, 7), 0px 17px 38px 0px rgba(15, 8, 8, 0.258), 0px 68px 68px 0px rgba(255, 255, 255, 0.035), 0px 100px 80px 0px rgba(0, 0, 0, 0.245);
 }
 
 .img-val {
-  width:300px;
+  width: 300px;
   border-radius: 12px;
   border: 4px solid #000000;
   box-shadow: 0px 0px 0px 0px rgb(14, 7, 7), 0px 17px 38px 0px rgba(15, 8, 8, 0.258), 0px 68px 68px 0px rgba(255, 255, 255, 0.035), 0px 100px 80px 0px rgba(0, 0, 0, 0.245);
 }
 
 .img-apex {
-  width:300px;
+  width: 300px;
   border-radius: 12px;
   border: 4px solid #000000;
   box-shadow: 0px 0px 0px 0px rgb(14, 7, 7), 0px 17px 38px 0px rgba(15, 8, 8, 0.258), 0px 68px 68px 0px rgba(255, 255, 255, 0.035), 0px 100px 80px 0px rgba(0, 0, 0, 0.245);
 }
 
 .img-frag {
-  width:500px;
+  width: 500px;
   border-radius: 12px;
   border: 4px solid #000000;
   box-shadow: 0px 0px 0px 0px rgb(14, 7, 7), 0px 17px 38px 0px rgba(15, 8, 8, 0.258), 0px 68px 68px 0px rgba(255, 255, 255, 0.035), 0px 100px 80px 0px rgba(0, 0, 0, 0.245);
 }
 
 .img-vis {
-  width:500px;
+  width: 500px;
   border-radius: 12px;
   border: 4px solid #000000;
   box-shadow: 0px 0px 0px 0px rgb(14, 7, 7), 0px 17px 38px 0px rgba(15, 8, 8, 0.258), 0px 68px 68px 0px rgba(255, 255, 255, 0.035), 0px 100px 80px 0px rgba(0, 0, 0, 0.245);
 }
 
 .img-outl {
-  width:500px;
+  width: 500px;
   border-radius: 12px;
   border: 4px solid #000000;
   box-shadow: 0px 0px 0px 0px rgb(14, 7, 7), 0px 17px 38px 0px rgba(15, 8, 8, 0.258), 0px 68px 68px 0px rgba(255, 255, 255, 0.035), 0px 100px 80px 0px rgba(0, 0, 0, 0.245);
@@ -462,6 +498,7 @@ body {
   animation-delay: 1.5s;
   animation-fill-mode: both;
 }
+
 .container-footer {
   padding-top: 60px;
   width: 800px;
@@ -475,9 +512,10 @@ body {
   padding: 20px 10px;
   box-shadow: 0px 0px 0px 0px rgb(14, 7, 7), 0px 17px 38px 0px rgba(15, 8, 8, 0.258), 0px 68px 68px 0px rgba(255, 255, 255, 0.035), 0px 100px 80px 0px rgba(0, 0, 0, 0.245);
 }
+
 /*ссылки на соцсети*/
 .list-messangers {
-  align-items:center;
+  align-items: center;
   display: flex;
   gap: 50px;
   justify-content: center;

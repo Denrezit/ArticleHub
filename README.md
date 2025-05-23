@@ -12,7 +12,7 @@ Website was made with [@j1zzu](httpsgithub.comj1zzu).
 - fonts 
 
 ## Install
-1. Clone repository git clone httpsgithub.comDenrezitNoteTracker.git
+1. Clone repository git clone https://github.com/Denrezit/NoteTracker.git
 2. Open index.html in the browser
 
 ![Build status](https://github.com/Denrezit/ArticleHub/workflows/CI/badge.svg)

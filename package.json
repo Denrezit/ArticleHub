@@ -1,7 +1,16 @@
 {
+<<<<<<< HEAD
     "name": "artielehub",
     "version": "1.0.0",
     "devDependencies": {
       "htmlhint": "^1.1.4"
     }
   }
+=======
+  "name": "artielehub",
+  "version": "1.0.0",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
+}
+>>>>>>> e2fc15cf40ecd6edc993be5e7f766328bf83a23f
